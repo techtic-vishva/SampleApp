@@ -1,0 +1,25 @@
+diff --git a/node_modules/expo-notifications/android/src/main/java/expo/modules/notifications/service/delegates/ExpoSchedulingDelegate.kt b/node_modules/expo-notifications/android/src/main/java/expo/modules/notifications/service/delegates/ExpoSchedulingDelegate.kt
+index ca760d1..149d8eb 100644
+--- a/node_modules/expo-notifications/android/src/main/java/expo/modules/notifications/service/delegates/ExpoSchedulingDelegate.kt
++++ b/node_modules/expo-notifications/android/src/main/java/expo/modules/notifications/service/delegates/ExpoSchedulingDelegate.kt
+@@ -9,6 +9,7 @@ import androidx.core.app.AlarmManagerCompat
+ import expo.modules.notifications.notifications.interfaces.SchedulableNotificationTrigger
+ import expo.modules.notifications.notifications.model.Notification
+ import expo.modules.notifications.notifications.model.NotificationRequest
++import expo.modules.notifications.notifications.triggers.ChannelAwareTrigger
+ import expo.modules.notifications.service.NotificationsService
+ import expo.modules.notifications.service.interfaces.SchedulingDelegate
+ import java.io.IOException
+@@ -49,6 +50,12 @@ class ExpoSchedulingDelegate(protected val context: Context) : SchedulingDelegat
+       return
+     }
+ 
++    // If the trigger is channel aware and NOT schedulable, handle receive immediately and return.
++    if (request.trigger is ChannelAwareTrigger) {
++      NotificationsService.receive(context, Notification(request))
++      return
++    }
++
+     if (request.trigger !is SchedulableNotificationTrigger) {
+       throw IllegalArgumentException("Notification request \"${request.identifier}\" does not have a schedulable trigger (it's ${request.trigger}). Refusing to schedule.")
+     }
