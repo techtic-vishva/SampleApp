@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAvatar renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ed832d",
+          "borderRadius": 50,
+          "height": 100,
+          "justifyContent": "center",
+          "shadowColor": "#ed832d",
+          "shadowOffset": Object {
+            "height": 0,
+            "width": 0,
+          },
+          "shadowOpacity": 0.9,
+          "shadowRadius": 30,
+          "width": 100,
+        },
+        Object {},
+      ],
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "objektiv",
+        },
+        Array [
+          Object {
+            "fontFamily": "objektiv-semi-bold",
+            "fontSize": 30,
+          },
+        ],
+      ]
+    }
+  >
+    T
+  </Text>
+</View>
+`;
+
+exports[`reander when passing the props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#f2a86c",
+          "borderRadius": 50,
+          "height": 100,
+          "justifyContent": "center",
+          "shadowColor": "#ed832d",
+          "shadowOffset": Object {
+            "height": 0,
+            "width": 0,
+          },
+          "shadowOpacity": 0.9,
+          "shadowRadius": 30,
+          "width": 100,
+        },
+        Object {},
+      ],
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "objektiv",
+        },
+        Array [
+          Object {
+            "fontFamily": "objektiv-semi-bold",
+            "fontSize": 30,
+          },
+        ],
+      ]
+    }
+  >
+    T
+  </Text>
+</View>
+`;

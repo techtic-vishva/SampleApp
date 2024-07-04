@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when pass the path properly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#0b0805",
+        },
+        Object {
+          "alignItems": "center",
+          "marginHorizontal": 50,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(255,255,255,0.8)",
+            "fontFamily": "objektiv",
+          },
+          Object {
+            "fontSize": 17,
+            "lineHeight": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Open up the code for this screen:
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(255,255,255,0.05)",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "paddingHorizontal": 4,
+            },
+            Object {
+              "marginVertical": 7,
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Array [
+              undefined,
+              Object {
+                "fontFamily": "space-mono",
+              },
+            ],
+          ]
+        }
+      >
+        Snapshot path
+      </Text>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(255,255,255,0.8)",
+            "fontFamily": "objektiv",
+          },
+          Object {
+            "fontSize": 17,
+            "lineHeight": 24,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Change any of the text, save the file, and your app will automatically update.
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#0b0805",
+        },
+        Object {
+          "alignItems": "center",
+          "marginHorizontal": 20,
+          "marginTop": 15,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Tap here if your app doesn't automatically update after making changes
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,1250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when passing the props 1`] = `
+<View
+  onTouchEnd={Object {}}
+  onTouchStart={Object {}}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": "10%",
+        "justifyContent": "space-between",
+        "marginTop": 10,
+        "width": "90%",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+    <RNSVGSvgView
+      bbHeight={75}
+      bbWidth={75}
+      focusable={false}
+      height={75}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Array [
+            Object {
+              "transform": Array [
+                Object {
+                  "rotate": "270deg",
+                },
+              ],
+            },
+            Object {},
+          ],
+          Object {
+            "flex": 0,
+            "height": 75,
+            "width": 75,
+          },
+        ]
+      }
+      width={75}
+    >
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      >
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+            ]
+          }
+          r={30}
+          stroke={4282196484}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={null}
+          strokeWidth={3}
+        />
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+              "strokeLinecap",
+            ]
+          }
+          r={30}
+          stroke={4293755693}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={188.49555921538757}
+          strokeLinecap={1}
+          strokeWidth={3}
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "paddingLeft": 1,
+            "position": "absolute",
+            "width": 75,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "fontFamily": "objektiv-semi-bold",
+            },
+          ]
+        }
+      >
+        M
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+    <RNSVGSvgView
+      bbHeight={75}
+      bbWidth={75}
+      focusable={false}
+      height={75}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Array [
+            Object {
+              "transform": Array [
+                Object {
+                  "rotate": "270deg",
+                },
+              ],
+            },
+            Object {},
+          ],
+          Object {
+            "flex": 0,
+            "height": 75,
+            "width": 75,
+          },
+        ]
+      }
+      width={75}
+    >
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      >
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+            ]
+          }
+          r={30}
+          stroke={4282196484}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={null}
+          strokeWidth={3}
+        />
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+              "strokeLinecap",
+            ]
+          }
+          r={30}
+          stroke={4293755693}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={188.49555921538757}
+          strokeLinecap={1}
+          strokeWidth={3}
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "paddingLeft": 1,
+            "position": "absolute",
+            "width": 75,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "fontFamily": "objektiv-semi-bold",
+            },
+          ]
+        }
+      >
+        T
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+    <RNSVGSvgView
+      bbHeight={75}
+      bbWidth={75}
+      focusable={false}
+      height={75}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Array [
+            Object {
+              "transform": Array [
+                Object {
+                  "rotate": "270deg",
+                },
+              ],
+            },
+            Object {},
+          ],
+          Object {
+            "flex": 0,
+            "height": 75,
+            "width": 75,
+          },
+        ]
+      }
+      width={75}
+    >
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      >
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+            ]
+          }
+          r={30}
+          stroke={4282196484}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={null}
+          strokeWidth={3}
+        />
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+              "strokeLinecap",
+            ]
+          }
+          r={30}
+          stroke={4293755693}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={188.49555921538757}
+          strokeLinecap={1}
+          strokeWidth={3}
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "paddingLeft": 1,
+            "position": "absolute",
+            "width": 75,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "fontFamily": "objektiv-semi-bold",
+            },
+          ]
+        }
+      >
+        W
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+    <RNSVGSvgView
+      bbHeight={75}
+      bbWidth={75}
+      focusable={false}
+      height={75}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Array [
+            Object {
+              "transform": Array [
+                Object {
+                  "rotate": "270deg",
+                },
+              ],
+            },
+            Object {},
+          ],
+          Object {
+            "flex": 0,
+            "height": 75,
+            "width": 75,
+          },
+        ]
+      }
+      width={75}
+    >
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      >
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+            ]
+          }
+          r={30}
+          stroke={4282196484}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={null}
+          strokeWidth={3}
+        />
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+              "strokeLinecap",
+            ]
+          }
+          r={30}
+          stroke={4293755693}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={188.49555921538757}
+          strokeLinecap={1}
+          strokeWidth={3}
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "paddingLeft": 1,
+            "position": "absolute",
+            "width": 75,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "fontFamily": "objektiv-semi-bold",
+            },
+          ]
+        }
+      >
+        T
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+    <RNSVGSvgView
+      bbHeight={75}
+      bbWidth={75}
+      focusable={false}
+      height={75}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Array [
+            Object {
+              "transform": Array [
+                Object {
+                  "rotate": "270deg",
+                },
+              ],
+            },
+            Object {},
+          ],
+          Object {
+            "flex": 0,
+            "height": 75,
+            "width": 75,
+          },
+        ]
+      }
+      width={75}
+    >
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      >
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+            ]
+          }
+          r={30}
+          stroke={4282196484}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={null}
+          strokeWidth={3}
+        />
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+              "strokeLinecap",
+            ]
+          }
+          r={30}
+          stroke={4293755693}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={188.49555921538757}
+          strokeLinecap={1}
+          strokeWidth={3}
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "paddingLeft": 1,
+            "position": "absolute",
+            "width": 75,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "fontFamily": "objektiv-semi-bold",
+            },
+          ]
+        }
+      >
+        F
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+    <RNSVGSvgView
+      bbHeight={75}
+      bbWidth={75}
+      focusable={false}
+      height={75}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Array [
+            Object {
+              "transform": Array [
+                Object {
+                  "rotate": "270deg",
+                },
+              ],
+            },
+            Object {},
+          ],
+          Object {
+            "flex": 0,
+            "height": 75,
+            "width": 75,
+          },
+        ]
+      }
+      width={75}
+    >
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      >
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+            ]
+          }
+          r={30}
+          stroke={4282196484}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={null}
+          strokeWidth={3}
+        />
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+              "strokeLinecap",
+            ]
+          }
+          r={30}
+          stroke={4293755693}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={188.49555921538757}
+          strokeLinecap={1}
+          strokeWidth={3}
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "paddingLeft": 1,
+            "position": "absolute",
+            "width": 75,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "fontFamily": "objektiv-semi-bold",
+            },
+          ]
+        }
+      >
+        S
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+    <RNSVGSvgView
+      bbHeight={75}
+      bbWidth={75}
+      focusable={false}
+      height={75}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Array [
+            Object {
+              "transform": Array [
+                Object {
+                  "rotate": "270deg",
+                },
+              ],
+            },
+            Object {},
+          ],
+          Object {
+            "flex": 0,
+            "height": 75,
+            "width": 75,
+          },
+        ]
+      }
+      width={75}
+    >
+      <RNSVGGroup
+        matrix={
+          Array [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+          ]
+        }
+      >
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+            ]
+          }
+          r={30}
+          stroke={4282196484}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={null}
+          strokeWidth={3}
+        />
+        <RNSVGCircle
+          cx={37.5}
+          cy={37.5}
+          propList={
+            Array [
+              "stroke",
+              "strokeWidth",
+              "strokeDasharray",
+              "strokeDashoffset",
+              "strokeLinecap",
+            ]
+          }
+          r={30}
+          stroke={4293755693}
+          strokeDasharray={
+            Array [
+              188.49555921538757,
+              188.49555921538757,
+            ]
+          }
+          strokeDashoffset={188.49555921538757}
+          strokeLinecap={1}
+          strokeWidth={3}
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "display": "flex",
+            "height": 75,
+            "justifyContent": "center",
+            "paddingLeft": 1,
+            "position": "absolute",
+            "width": 75,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "fontFamily": "objektiv-semi-bold",
+            },
+          ]
+        }
+      >
+        S
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#0b0805",
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "height": 12,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;

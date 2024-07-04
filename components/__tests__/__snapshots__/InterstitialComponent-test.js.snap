@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when passing the props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "objektiv",
+        },
+        Array [
+          Object {
+            "fontFamily": "objektiv-semi-bold",
+            "fontSize": 20,
+          },
+          Array [
+            Object {
+              "fontSize": 22,
+              "textAlign": "center",
+              "width": "80%",
+            },
+            Object {
+              "marginBottom": "8%",
+            },
+          ],
+        ],
+      ]
+    }
+  >
+    Let's setup your household.How will you use Aro?
+  </Text>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ed832d",
+        "borderColor": "#ed832d",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "marginTop": "8%",
+        "opacity": 1,
+        "paddingHorizontal": 30,
+        "paddingVertical": 12,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "objektiv",
+          },
+          Object {
+            "color": "#0b0805",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      With My Family
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "borderColor": "white",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 30,
+        "opacity": 1,
+        "paddingHorizontal": 30,
+        "paddingVertical": 12,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "objektiv",
+          },
+          Object {
+            "color": "white",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Just me for now
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#0b0805",
+        },
+        Object {
+          "height": "100%",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+          "zIndex": -1,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      data={
+        Array [
+          "https://img.freepik.com/free-photo/medium-shot-happy-family-nature_23-2148996570.jpg?w=2000",
+          "https://media.gettyimages.com/id/1349249677/photo/family-fun.jpg?s=612x612&w=gi&k=20&c=oiRza0bcMwvrnMvwfKKIsYHEZdaYuv09DPDAWcrFaNA=",
+          "https://thumbs.dreamstime.com/b/happy-family-mother-father-children-son-daughter-sunset-nature-150794881.jpg",
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      initialNumToRender={1}
+      initialScrollIndex={0}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      onScrollToIndexFailed={[Function]}
+      onViewableItemsChanged={[Function]}
+      pagingEnabled={true}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEnabled={false}
+      scrollEventThrottle={50}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={Array []}
+      viewabilityConfig={
+        Object {
+          "itemVisiblePercentThreshold": 60,
+          "minimumViewTime": 200,
+        }
+      }
+      viewabilityConfigCallbackPairs={
+        Array [
+          Object {
+            "onViewableItemsChanged": [Function],
+            "viewabilityConfig": Object {
+              "itemVisiblePercentThreshold": 60,
+              "minimumViewTime": 200,
+            },
+          },
+        ]
+      }
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://img.freepik.com/free-photo/medium-shot-happy-family-nature_23-2148996570.jpg?w=2000",
+              }
+            }
+            style={
+              Object {
+                "height": 1334,
+                "opacity": 0.55,
+                "resizeMode": "cover",
+                "width": 750,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "bottom": 0,
+            "flexDirection": "row",
+            "height": 28.125,
+            "justifyContent": "center",
+            "marginVertical": 16.675,
+            "position": "absolute",
+          },
+          Object {
+            "bottom": 30,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 5,
+            "height": 3,
+            "marginHorizontal": 5,
+            "marginTop": 1,
+            "opacity": 1,
+            "width": 40,
+          }
+        }
+        testID="_pagination_0"
+      />
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "gray",
+            "borderRadius": 5,
+            "height": 5,
+            "marginHorizontal": 5,
+            "marginTop": 0,
+            "opacity": 1,
+            "width": 5,
+          }
+        }
+        testID="_pagination_1"
+      />
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "gray",
+            "borderRadius": 5,
+            "height": 5,
+            "marginHorizontal": 5,
+            "marginTop": 0,
+            "opacity": 1,
+            "width": 5,
+          }
+        }
+        testID="_pagination_2"
+      />
+    </View>
+  </View>
+</View>
+`;

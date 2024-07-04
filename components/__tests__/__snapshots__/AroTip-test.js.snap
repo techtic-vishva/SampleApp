@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when passing the props 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#fff",
+        "fontFamily": "objektiv",
+      },
+      Object {
+        "marginVertical": 30,
+        "textAlign": "center",
+        "width": "80%",
+      },
+    ]
+  }
+>
+   
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 20,
+        "resizeMode": "contain",
+        "width": 20,
+      }
+    }
+  />
+      
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "objektiv",
+        },
+        Object {
+          "fontFamily": "objektiv-md-italic",
+          "fontSize": 15,
+        },
+      ]
+    }
+  >
+    
+  </Text>
+</Text>
+`;

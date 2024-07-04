@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when layout is featured 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "display": "flex",
+          "paddingTop": 20,
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ],
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingEnd": 20,
+        "paddingStart": 20,
+      }
+    }
+    horizontal={true}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
+
+exports[`render when layout is horizontal 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "display": "flex",
+          "paddingTop": 20,
+        },
+        Object {
+          "marginRight": 0,
+        },
+      ],
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingEnd": 20,
+        "paddingStart": 20,
+      }
+    }
+    horizontal={true}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
+
+exports[`render when passing the props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "display": "flex",
+          "paddingTop": 20,
+        },
+        Object {
+          "marginRight": 20,
+        },
+      ],
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingEnd": 20,
+        "paddingStart": 20,
+      }
+    }
+    horizontal={false}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

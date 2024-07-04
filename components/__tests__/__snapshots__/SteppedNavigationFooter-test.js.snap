@@ -1,0 +1,555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when continue button is disable 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#0b0805",
+        },
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 30,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "white",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginRight": 10,
+          "opacity": 1,
+          "paddingHorizontal": 30,
+          "paddingVertical": 12,
+          "width": "50%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "color": "#0b0805",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        Skip
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ed832d",
+          "borderColor": "#ed832d",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginRight": 10,
+          "opacity": 1,
+          "paddingHorizontal": 30,
+          "paddingVertical": 12,
+          "width": "50%",
+        }
+      }
+    >
+      <View
+        name="arrow-left"
+        size={20}
+        style={
+          Object {
+            "paddingHorizontal": 10,
+          }
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "color": "#0b0805",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        Back
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#7c4519",
+          "borderColor": "#7c4519",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginLeft": 10,
+          "opacity": 1,
+          "paddingHorizontal": 30,
+          "paddingVertical": 12,
+          "width": "50%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "color": "#0b0805",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        Continue
+      </Text>
+      <View
+        name="arrow-right"
+        size={20}
+        style={
+          Array [
+            Object {
+              "paddingHorizontal": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "marginBottom": 60,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "height": 3,
+          "marginHorizontal": 5,
+          "marginTop": 1,
+          "opacity": undefined,
+          "width": 60,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "height": 5,
+          "marginHorizontal": 5,
+          "marginTop": 0,
+          "opacity": 0.5,
+          "width": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "height": 5,
+          "marginHorizontal": 5,
+          "marginTop": 0,
+          "opacity": 0.5,
+          "width": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "height": 5,
+          "marginHorizontal": 5,
+          "marginTop": 0,
+          "opacity": 0.5,
+          "width": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`render when passing the props 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#0b0805",
+      },
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#0b0805",
+        },
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 30,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "white",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginRight": 10,
+          "opacity": 1,
+          "paddingHorizontal": 30,
+          "paddingVertical": 12,
+          "width": "50%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "color": "#0b0805",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        Skip
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ed832d",
+          "borderColor": "#ed832d",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginRight": 10,
+          "opacity": 1,
+          "paddingHorizontal": 30,
+          "paddingVertical": 12,
+          "width": "50%",
+        }
+      }
+    >
+      <View
+        name="arrow-left"
+        size={20}
+        style={
+          Object {
+            "paddingHorizontal": 10,
+          }
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "color": "#0b0805",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        Back
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ed832d",
+          "borderColor": "#ed832d",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginLeft": 10,
+          "opacity": 1,
+          "paddingHorizontal": 30,
+          "paddingVertical": 12,
+          "width": "50%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Object {
+              "color": "#0b0805",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        Continue
+      </Text>
+      <View
+        name="arrow-right"
+        size={20}
+        style={
+          Array [
+            Object {
+              "paddingHorizontal": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "marginBottom": 60,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "height": 3,
+          "marginHorizontal": 5,
+          "marginTop": 1,
+          "opacity": undefined,
+          "width": 60,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "height": 5,
+          "marginHorizontal": 5,
+          "marginTop": 0,
+          "opacity": 0.5,
+          "width": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "height": 5,
+          "marginHorizontal": 5,
+          "marginTop": 0,
+          "opacity": 0.5,
+          "width": 5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 5,
+          "height": 5,
+          "marginHorizontal": 5,
+          "marginTop": 0,
+          "opacity": 0.5,
+          "width": 5,
+        }
+      }
+    />
+  </View>
+</View>
+`;

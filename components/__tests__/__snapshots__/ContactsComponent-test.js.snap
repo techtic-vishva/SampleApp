@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when passing the props 1`] = `
+<ActivityIndicator
+  style={
+    Object {
+      "marginBottom": "auto",
+      "marginTop": "auto",
+    }
+  }
+/>
+`;

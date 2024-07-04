@@ -1,0 +1,38 @@
+{
+	"cli": {
+		"version": ">= 0.48.2"
+	},
+	"build": {
+		"development": {
+			"developmentClient": true,
+			"distribution": "internal",
+			"ios": {
+				"resourceClass": "m1-medium"
+			}
+		},
+		"simulator": {
+			"developmentClient": true,
+			"ios": {
+				"simulator": true,
+				"resourceClass": "m1-medium"
+			}
+		},
+		"internal": {
+			"distribution": "internal",
+			"ios": {
+				"resourceClass": "m1-medium"
+			}
+		},
+		"appstore": {
+			"env": {
+				"APP_ENV": "production"
+			},
+			"ios": {
+				"resourceClass": "m1-medium"
+			}
+		}
+	},
+	"submit": {
+		"production": {}
+	}
+}

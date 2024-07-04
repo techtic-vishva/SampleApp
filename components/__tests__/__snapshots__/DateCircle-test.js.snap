@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when passing the props 1`] = `
+<RNSVGSvgView
+  bbHeight={50}
+  bbWidth={50}
+  focusable={false}
+  height={50}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderWidth": 0,
+      },
+      Array [
+        Object {
+          "transform": Array [
+            Object {
+              "rotate": "270deg",
+            },
+          ],
+        },
+        Object {},
+      ],
+      Object {
+        "flex": 0,
+        "height": 50,
+        "width": 50,
+      },
+    ]
+  }
+  width={50}
+>
+  <RNSVGGroup
+    matrix={
+      Array [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+      ]
+    }
+  >
+    <RNSVGCircle
+      cx={25}
+      cy={25}
+      propList={
+        Array [
+          "stroke",
+          "strokeWidth",
+          "strokeDasharray",
+          "strokeDashoffset",
+          "strokeLinecap",
+        ]
+      }
+      r={20}
+      stroke={4278190080}
+      strokeDasharray={
+        Array [
+          125.66370614359172,
+          125.66370614359172,
+        ]
+      }
+      strokeDashoffset={125.66370614359172}
+      strokeLinecap={1}
+      strokeWidth={3}
+    />
+  </RNSVGGroup>
+</RNSVGSvgView>
+`;

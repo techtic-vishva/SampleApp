@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TourTooltip renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffffef",
+      "borderRadius": 16,
+      "justifyContent": "center",
+      "paddingBottom": 16,
+      "paddingTop": 24,
+      "width": "90%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "space-around",
+        "paddingBottom": 10,
+        "width": "80%",
+      }
+    }
+  >
+    
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "objektiv",
+          },
+          Array [
+            Object {
+              "color": "#23211e",
+              "fontFamily": "objektiv",
+              "textAlign": "center",
+            },
+            Object {
+              "fontFamily": "objektiv",
+            },
+          ],
+        ]
+      }
+      testID="stepDescription"
+    >
+      test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "marginTop": 10,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Array [
+              Object {
+                "color": "#ed832d",
+                "fontFamily": "objektiv",
+                "textAlign": "center",
+              },
+              Object {
+                "fontFamily": "objektiv",
+              },
+            ],
+          ]
+        }
+      >
+        previous
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "objektiv",
+            },
+            Array [
+              Object {
+                "color": "#ed832d",
+                "fontFamily": "objektiv",
+                "textAlign": "center",
+              },
+              Object {
+                "fontFamily": "objektiv",
+              },
+            ],
+          ]
+        }
+      >
+        finish
+      </Text>
+    </View>
+  </View>
+</View>
+`;

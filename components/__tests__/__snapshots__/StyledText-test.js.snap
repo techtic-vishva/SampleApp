@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderText renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#fff",
+        "fontFamily": "objektiv",
+      },
+      Array [
+        Object {
+          "fontFamily": "objektiv-semi-bold",
+          "fontSize": 20,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  Snapshot test!
+</Text>
+`;
+
+exports[`MainText renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#fff",
+        "fontFamily": "objektiv",
+      },
+      Array [
+        undefined,
+        Object {
+          "fontFamily": "objektiv",
+        },
+      ],
+    ]
+  }
+>
+  Snapshot test!
+</Text>
+`;
+
+exports[`MonoText renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#fff",
+        "fontFamily": "objektiv",
+      },
+      Array [
+        undefined,
+        Object {
+          "fontFamily": "space-mono",
+        },
+      ],
+    ]
+  }
+>
+  Snapshot test!
+</Text>
+`;

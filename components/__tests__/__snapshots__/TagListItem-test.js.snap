@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagListItem renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomLeftRadius": 50,
+      "borderBottomRightRadius": 7,
+      "borderColor": "#23211e",
+      "borderTopLeftRadius": 50,
+      "borderTopRightRadius": 7,
+      "borderWidth": 3,
+      "flexDirection": "row",
+      "height": 55,
+      "marginBottom": 10,
+      "paddingEnd": "5%",
+      "paddingStart": "5%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "#ed832d",
+        "borderRadius": 20,
+        "borderWidth": 1,
+        "height": 30,
+        "justifyContent": "center",
+        "width": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "objektiv",
+          },
+          Object {
+            "color": "white",
+            "fontFamily": "objektiv-semi-bold",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      1
+    </Text>
+  </View>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "objektiv",
+        },
+        Array [
+          Object {
+            "color": "white",
+            "fontFamily": "objektiv-semi-bold",
+            "fontSize": 16,
+          },
+          Object {
+            "flex": 1,
+            "marginStart": "5%",
+          },
+        ],
+      ]
+    }
+  >
+    test
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "objektiv",
+        },
+        Array [
+          Object {
+            "color": "white",
+            "fontFamily": "objektiv-semi-bold",
+            "fontSize": 16,
+          },
+          Object {
+            "color": "#999a81",
+            "fontFamily": "objektiv",
+            "marginStart": "5%",
+          },
+        ],
+      ]
+    }
+  >
+    1 hr
+  </Text>
+</View>
+`;
